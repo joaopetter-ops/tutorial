@@ -1,30 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <header>
-            <h1>Meu blog tech</h1>
-            <p>vou compartilahr conhecimentos de tecnologia e programação</p>
-        </header>
-        <main>
-            <h2>Meu primeiro post</h2>
-            <p>Por:João cristhian</p>
-            <p>Boas vindas ao meu novo blog! aqui vou compartilhar dicas de programação e curiosidade da área de tecnologia</p>
-            <button>👍 <span>0</span>​</button>
-        </main>
-  </body>
-  <script>
-    const botao = document.querySelector("button");
-    botao.addEventListener("click" botaoclicado);
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Máquinas</title>
+    <link rel="stylesheet" href="style.css">
 
-    function botaoclicado()[
-        console.log("fui clicado");
-        ler texto = botao.querySelector("span");
-        texto.textocontent++;
-    ]
-  </script>
+    <style>header{
+            background-color: #02ff0f;
+            color: black;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }   
+        main{
+            background-color: black;
+            color: #ecf0ed;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+         nav{
+            background-color: #f4f7f3;
+            color: black;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+        section{
+            background-color: rgb(0, 2, 0);
+            color: #00ff15;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px; 
+        }
+        </style>
+</head>
+<body>
+
+<header>
+    <h1>🚜 Agro Máquinas</h1>
+</header>
+
+<section class="hero">
+    <div class="texto">
+        <h2>Tecnologia para o Campo</h2>
+        <h4>A tecnologia no campo transforma a produção rural por meio da agricultura digital, destacando-se o uso de drones, sensores e inteligência artificial.</h4>
+        <h4>Essas ferramentas aumentam a produtividade, reduzem o desperdício de insumos e tornam o manejo agrícola mais sustentável e preciso.</h4>
+    </div>
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h2>🚜 Tratores</h2>
+        <h3>O trator agrícola é uma máquina autopropelida essencial na agropecuária, projetada para gerar potência mecânica, puxar, levantar ou acionar implementos.</h3>
+        <h3> Os preços variam de R$ 28.000 em modelos compactos de entrada até mais de R$ 300.000 em unidades de grande porte e alta tecnologia</h3>
+    </div>
+
+    <div class="card">
+        <h2>🌾 Colheitadeiras</h2>
+        <h3>Uma colheitadeira é uma poderosa máquina agrícola usada para cortar, debulhar e limpar grãos em uma única operação.</h3>
+        <h3> Ela substitui o trabalho manual e acelera a safra de culturas como soja, milho, trigo e arroz. Grandes marcas como John Deere oferecem modelos avançados para o campo.</h3>
+    </div>
+
+    <div class="card">
+        <h2>🌱 Plantadeiras</h2>
+        <h3>Uma plantadeira agrícola é uma máquina usada para abrir o solo, colocar adubo e depositar sementes na profundidade e no espaço certos</h3>
+        <h3>Ela ajuda a economizar tempo e melhora muito a plantação de grãos como soja e milho</h3>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 joao cristhian machado</p>
+</footer>
+
+</body>
 </html>
